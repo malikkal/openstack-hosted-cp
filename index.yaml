@@ -1,0 +1,21 @@
+apiVersion: v1
+entries:
+  openstack-hosted-cp:
+  - annotations:
+      cluster.x-k8s.io/bootstrap-k0sproject-k0smotron: v1beta1
+      cluster.x-k8s.io/control-plane-k0sproject-k0smotron: v1beta1
+      cluster.x-k8s.io/infrastructure-openstack: v1beta1
+      cluster.x-k8s.io/provider: infrastructure-openstack, control-plane-k0sproject-k0smotron,
+        bootstrap-k0sproject-k0smotron
+    apiVersion: v2
+    appVersion: v1.32.6+k0s.0
+    created: "2025-07-18T19:54:54.440387151+08:00"
+    description: 'A KCM template to deploy a k8s cluster on Openstack with control
+      plane components within the management cluster. '
+    digest: e0dfbb6be04393f00ff83ae31b85d702799a6a77f85b5f34d9cd27228b0bd176
+    name: openstack-hosted-cp
+    type: application
+    urls:
+    - https://malikkal.github.io/openstack-hosted-cp/openstack-hosted-cp-1.0.0.tgz
+    version: 1.0.0
+generated: "2025-07-18T19:54:54.439725679+08:00"
