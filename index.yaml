@@ -9,13 +9,13 @@ entries:
         bootstrap-k0sproject-k0smotron
     apiVersion: v2
     appVersion: v1.32.6+k0s.0
-    created: "2025-07-25T00:11:54.211120831+08:00"
+    created: "2025-07-25T01:50:43.474270961+08:00"
     description: 'A KCM template to deploy a k8s cluster on Openstack with control
       plane components within the management cluster. '
-    digest: 9fc39f8e9cb4b7ff5ebbcf6e0a56597fb5243de5a67ce0b67839d3d9372e86b1
+    digest: e9d256034e2d9f3db0c31a29443d6c2fa1a427e54481588d4a1d877f79601245
     name: openstack-hosted-cp
     type: application
     urls:
-    - https://malikkal.github.io/openstack-hosted-cp/openstack-hosted-cp-1.0.1.tgz
-    version: 1.0.1
-generated: "2025-07-25T00:11:54.210455252+08:00"
+    - https://malikkal.github.io/openstack-hosted-cp/openstack-hosted-cp-1.0.2.tgz
+    version: 1.0.2
+generated: "2025-07-25T01:50:43.473446912+08:00"
